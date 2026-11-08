@@ -1,0 +1,137 @@
+{
+  "n_runs": 107,
+  "per_ensemble": {
+    "accuracy|real|ARE": {
+      "n": 15,
+      "mean_abs_diff": 0.5842102858307214,
+      "median_diff": -0.1682802495688378,
+      "spearman_datasets": 0.9857142857142854,
+      "mean_diff_HLAST": 0.37131740559639753,
+      "mean_diff_HLAST_D": -0.31639629636286487,
+      "mean_diff_HT": -0.10321199818329774,
+      "best_tree_agreement": 0.6,
+      "n_datasets_complete": 5
+    },
+    "accuracy|real|ARF": {
+      "n": 15,
+      "mean_abs_diff": 0.8686384954294321,
+      "median_diff": 0.07671580847292603,
+      "spearman_datasets": 0.9928571428571428,
+      "mean_diff_HLAST": 0.789959181528765,
+      "mean_diff_HLAST_D": 1.6773290946505939,
+      "mean_diff_HT": 0.03869062176744222,
+      "best_tree_agreement": 0.8,
+      "n_datasets_complete": 5
+    },
+    "accuracy|real|ARTE": {
+      "n": 32,
+      "mean_abs_diff": 0.39633169115064537,
+      "median_diff": 0.1491839391405918,
+      "spearman_datasets": 0.9956011730205276,
+      "mean_diff_HLAST": 0.2276416990607718,
+      "mean_diff_HLAST_D": 0.3811227032680911,
+      "mean_diff_HT": 0.2640624469001015,
+      "best_tree_agreement": 0.9,
+      "n_datasets_complete": 10
+    },
+    "accuracy|real|LevBag": {
+      "n": 15,
+      "mean_abs_diff": 0.08255046300366947,
+      "median_diff": 0.04860180643913736,
+      "spearman_datasets": 1.0,
+      "mean_diff_HLAST": 0.079687939982,
+      "mean_diff_HLAST_D": 0.10952112902368186,
+      "mean_diff_HT": 0.005345475291397861,
+      "best_tree_agreement": 1.0,
+      "n_datasets_complete": 5
+    },
+    "accuracy|real|SRP": {
+      "n": 30,
+      "mean_abs_diff": 1.7857760547023431,
+      "median_diff": 0.508563044644724,
+      "spearman_datasets": 0.9537263626251389,
+      "mean_diff_HLAST": 3.9315551191185754,
+      "mean_diff_HLAST_D": 0.6657462498392015,
+      "mean_diff_HT": 0.39905137720910205,
+      "best_tree_agreement": 0.3,
+      "n_datasets_complete": 10
+    },
+    "f1|real|ARE": {
+      "n": 15,
+      "mean_abs_diff": 2.5581280409959657,
+      "median_diff": -1.033629693373058,
+      "spearman_datasets": 0.9857142857142854,
+      "mean_diff_HLAST": -1.9921897122793255,
+      "mean_diff_HLAST_D": -1.6956053499696124,
+      "mean_diff_HT": -1.5027819368908013,
+      "best_tree_agreement": 0.6,
+      "n_datasets_complete": 5
+    },
+    "f1|real|ARF": {
+      "n": 15,
+      "mean_abs_diff": 2.9963248548807746,
+      "median_diff": -1.4698196547842315,
+      "spearman_datasets": 0.9678571428571429,
+      "mean_diff_HLAST": -1.3639653709477428,
+      "mean_diff_HLAST_D": 2.918976309575123,
+      "mean_diff_HT": -2.146865173734389,
+      "best_tree_agreement": 0.6,
+      "n_datasets_complete": 5
+    },
+    "f1|real|ARTE": {
+      "n": 32,
+      "mean_abs_diff": 5.698236950637687,
+      "median_diff": -0.28509505662111323,
+      "spearman_datasets": 0.9860653394927507,
+      "mean_diff_HLAST": -4.673318199599907,
+      "mean_diff_HLAST_D": -5.004013759995513,
+      "mean_diff_HT": -4.63101950547476,
+      "best_tree_agreement": 0.8,
+      "n_datasets_complete": 10
+    },
+    "f1|real|LevBag": {
+      "n": 15,
+      "mean_abs_diff": 4.199435616400496,
+      "median_diff": -2.062300983072454,
+      "spearman_datasets": 0.9892857142857142,
+      "mean_diff_HLAST": -1.778398679317928,
+      "mean_diff_HLAST_D": -1.6484064983258562,
+      "mean_diff_HT": -9.16469485273245,
+      "best_tree_agreement": 0.6,
+      "n_datasets_complete": 5
+    },
+    "f1|real|SRP": {
+      "n": 30,
+      "mean_abs_diff": 7.336368774934499,
+      "median_diff": -0.19492191784944168,
+      "spearman_datasets": 0.9594926390174895,
+      "mean_diff_HLAST": -4.561960637661114,
+      "mean_diff_HLAST_D": -5.117051881016369,
+      "mean_diff_HT": -5.1377280061302715,
+      "best_tree_agreement": 0.3,
+      "n_datasets_complete": 10
+    }
+  },
+  "win_rates": {
+    "accuracy|real|HLAST>HT": {
+      "ours": 0.7222222222222222,
+      "paper_same_pairs": 0.5,
+      "n": 36
+    },
+    "accuracy|real|HLAST_D>HT": {
+      "ours": 0.7428571428571429,
+      "paper_same_pairs": 0.6571428571428571,
+      "n": 35
+    },
+    "f1|real|HLAST>HT": {
+      "ours": 0.6666666666666666,
+      "paper_same_pairs": 0.5277777777777778,
+      "n": 36
+    },
+    "f1|real|HLAST_D>HT": {
+      "ours": 0.6285714285714286,
+      "paper_same_pairs": 0.6857142857142857,
+      "n": 35
+    }
+  }
+}

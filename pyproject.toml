@@ -1,0 +1,24 @@
+[project]
+name = "hast"
+version = "0.1.0"
+description = "Python port of Hoeffding Adaptive Splitting Trees (HLAST/HLAST_D) and ensembles (Nowak Assis et al., DMKD 2026)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "numba>=0.60",
+    "pandas>=2.2",
+    "scipy>=1.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["hast*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

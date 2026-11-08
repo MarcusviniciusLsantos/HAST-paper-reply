@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.pytest_cache/
+*:Zone.Identifier
+# third-party downloads (MOA, JDK, papers, imbalanced archives) and generated data
+third_party/
+data/
+*.arff
+*.npz
+# Authors' material (Java code, PDFs, datasets) and the Java reference harness built on it:
+# kept only on the machine that validates the port, never versioned
+original_data_article/
+java_ref/
+# run logs and partial files (the result JSONs themselves are kept)
+results/**/*.log
+results/**/*.tmp
+log/*
+!log/.gitkeep
+.git_commit
+cluster/jobs/*.txt
+cluster/
+log/
+*.egg-info/
+# Execução interna: fica só local
+docs/cluster.md
+scripts/make_joblist.py
+scripts/run_joblist.py
